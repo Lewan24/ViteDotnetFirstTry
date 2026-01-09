@@ -1,0 +1,33 @@
+# ===== Backend (.NET) =====
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.vs/
+.vscode/
+*.db
+*.log
+*.pdb
+*.cache
+*.dll
+*.exe
+*.nuget/
+
+# Rider / JetBrains
+.idea/
+
+# ===== Frontend (React + Vite / Node) =====
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vite/
+
+# ===== Ogólne =====
+.DS_Store
+Thumbs.db
